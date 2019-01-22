@@ -11,7 +11,7 @@ class LogWindow(QDialog):
 
     def __init__(self):
         super(LogWindow, self).__init__()
-        self.setStyle('qrc/dark.qss')
+        self.setStyle('qrc/white.qss')
         self.initUI()
 
     def setStyle(self,_qssPath):
