@@ -37,7 +37,7 @@ class mainWindow(QTabWidget):
         super().__init__()
 
         self.focusID = 0
-        self.setStyle('qrc/black.qss')
+        self.setStyle('qrc/white.qss')
         self.createActions()
         self.createTrayIcon()
         self.init()
